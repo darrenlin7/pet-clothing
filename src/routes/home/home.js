@@ -10,13 +10,13 @@ function Home() {
     },
     {
       id: 2,
-      title: "clothes",
+      title: "jackets",
       imageUrl:
         "https://images.unsplash.com/photo-1583336663277-620dc1996580?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80",
     },
     {
       id: 3,
-      title: "booties",
+      title: "sneakers",
       imageUrl:
         "https://plus.unsplash.com/premium_photo-1661866064756-ab36b27cf427?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
     },
