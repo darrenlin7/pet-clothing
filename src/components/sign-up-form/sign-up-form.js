@@ -6,7 +6,7 @@ import {
 import Button from "../button/button";
 import FormInput from "../form-input/form-input";
 
-import "./sign-up-form.scss";
+import { SignUpContainer } from "./sign-up-form.styles.js";
 
 const defaultFormFields = {
   displayName: "",
@@ -53,7 +53,7 @@ function SignUpForm() {
   };
 
   return (
-    <div className="sign-up-container">
+    <SignUpContainer>
       <h2>Sign up form</h2>
       <span>Sign up here</span>
       <form onSubmit={handleSubmit}>
@@ -91,7 +91,7 @@ function SignUpForm() {
         />
         <Button type="submit">Sign Up</Button>
       </form>
-    </div>
+    </SignUpContainer>
   );
 }
 

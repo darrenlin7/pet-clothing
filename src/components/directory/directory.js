@@ -1,4 +1,4 @@
-import DirectoryItem from "../category-item/directory-item";
+import DirectoryItem from "../directory-item/directory-item";
 import { DirectoryContainer } from "./directory.styles.js";
 
 function Directory({ categories }) {
