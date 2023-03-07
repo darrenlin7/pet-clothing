@@ -4,7 +4,6 @@ import {
   Title,
   Preview,
 } from "./category-preview.styles.js";
-import { Link } from "react-router-dom";
 
 function CategoryPreview({ title, products }) {
   return (
