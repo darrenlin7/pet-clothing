@@ -7,7 +7,7 @@ function CartItem({ cartItem }) {
       <img src={imageUrl} alt={name} />
       <ItemDetails>
         <Name>{name}</Name>
-        <span classname="quantity">
+        <span className="quantity">
           {quantity} x ${price}
         </span>
       </ItemDetails>
