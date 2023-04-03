@@ -13,7 +13,6 @@ import Authentication from "./routes/authentication/authentication";
 import Shop from "./routes/shop/shop";
 import Checkout from "./routes/checkout/checkout";
 import { setCurrentUser } from "./store/user/user.action";
-import { setCategoriesMap } from "./store/categories/category.action";
 
 function App() {
   const dispatch = useDispatch();
